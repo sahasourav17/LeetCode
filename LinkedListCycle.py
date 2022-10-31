@@ -13,3 +13,4 @@ class Solution:
             if fastPointer==slowPointer:
                 return True
         return False
+# time complexity O(N)
