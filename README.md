@@ -1,6 +1,6 @@
 # Solutions of LeetCode Problems
 
-## **Solutions of Blind 75 Questions:**
+## **Solved Blind 75 Questions:**
 
 **Array**
 - [Two sum](https://leetcode.com/problems/two-sum/)
