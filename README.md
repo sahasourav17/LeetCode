@@ -8,6 +8,9 @@
 - [Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)
 - [Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/)
 
+**Binary**
+- [Sum of Two Intergers](https://leetcode.com/problems/sum-of-two-integers/)
+
 **Linked List**
 - [Reverse a Linked List](https://leetcode.com/problems/reverse-linked-list/)
 - [Detect Cycle in a Linked List](https://leetcode.com/problems/linked-list-cycle/)
