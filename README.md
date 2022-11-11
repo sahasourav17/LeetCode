@@ -11,6 +11,9 @@
 **Binary**
 - [Sum of Two Intergers](https://leetcode.com/problems/sum-of-two-integers/)
 
+**Graph**
+- [Number of Islands](https://leetcode.com/problems/number-of-islands/)
+
 **Linked List**
 - [Reverse a Linked List](https://leetcode.com/problems/reverse-linked-list/)
 - [Detect Cycle in a Linked List](https://leetcode.com/problems/linked-list-cycle/)
