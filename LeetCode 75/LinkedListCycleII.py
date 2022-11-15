@@ -25,7 +25,7 @@ class Solution:
                 return None
 
         '''
-            If cycle found then we will go one position at 
+            If cycle found then we will go one position at
             a time for both pointer
         '''
         fast = head
@@ -35,3 +35,23 @@ class Solution:
             fast = fast.next
 
         return fast
+
+# Approach -2 (Concise)
+class Solution:
+    def detectCycle(self, head: Optional[ListNode]) -> Optional[ListNode]:
+
+        if head is None:
+            return None
+
+        slow,fast,vis= head,head,head
+
+        while fast.next and fast.next.next:
+            slow = slow.next
+            fast = fast.next.next
+
+            if slow == fast:
+                while vis != slow:
+                    slow = slow.next
+                    vis = vis.next
+                return slow
+        return None
