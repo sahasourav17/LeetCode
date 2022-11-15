@@ -45,7 +45,7 @@ class Solution:
 
         slow,fast,vis= head,head,head
 
-        while fast.next and fast.next.next:
+        while fast and fast.next:
             slow = slow.next
             fast = fast.next.next
 
@@ -55,3 +55,4 @@ class Solution:
                     vis = vis.next
                 return slow
         return None
+
