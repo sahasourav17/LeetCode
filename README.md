@@ -11,6 +11,9 @@
 **Binary**
 - [Sum of Two Intergers](https://leetcode.com/problems/sum-of-two-integers/)
 
+**Dynamic Programming**
+- [Climbing Stairs](https://leetcode.com/problems/climbing-stairs/)
+
 **Graph**
 - [Number of Islands](https://leetcode.com/problems/number-of-islands/)
 
