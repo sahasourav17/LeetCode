@@ -18,3 +18,26 @@ class Solution:
             if key not in freq1 or freq1[key] != freq2[key]:
                 return False
         return True
+
+# Another approach
+
+class Solution:
+    def isAnagram(self, s: str, t: str) -> bool:
+        lenS,lenT = len(s),len(t)
+        if lenS != lenT:
+            return False
+
+        dS,dT = {},{}
+        for i in s:
+            if i in dS:
+                dS[i] += 1
+            else:
+                dS[i] = 1
+        for i in t:
+            if i in dT:
+                dT[i] += 1
+            else:
+                dT[i] = 1
+
+        return True if dS == dT else False
+
