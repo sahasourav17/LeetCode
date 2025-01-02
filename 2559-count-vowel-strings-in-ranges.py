@@ -12,8 +12,7 @@ class Solution:
                 count += 1
             prefix.append(count)
 
-        for query in queries:
-            l, r = query
+        for l, r in queries:
             if l == 0:
                 res.append(prefix[r])
             else:
